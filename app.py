@@ -84,9 +84,7 @@ if df_main is None:
 
 # --- DASHBOARD HEADER ---
 st.title("🏥 OECD Primary Care Quality Explorer")
-st.markdown("""
-**Objective:** Visualize the effectiveness of primary care systems in avoiding hospital admissions (2016-2023).
-**Instructions:** Click on a country in the **Cluster Analysis** chart (left) to filter the detailed views.
+st.markdown("""Click on a country in the **Cluster Analysis** chart (left) to filter the detailed views.
 """)
 
 # --- SIDEBAR ---
